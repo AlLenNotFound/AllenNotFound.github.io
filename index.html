@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Yibo Lu</title>
+  <title>Yibo Li</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
@@ -64,12 +64,19 @@
       font-size: 15px;
     }
 
-    .paper, .project {
-      margin-bottom: 18px;
+    .item {
+      margin-bottom: 22px;
     }
 
-    .paper-title, .project-title {
+    .item-title {
       font-weight: bold;
+      font-size: 16px;
+    }
+
+    .item-meta {
+      color: #666;
+      font-size: 15px;
+      margin-top: 2px;
     }
 
     .authors {
@@ -82,6 +89,7 @@
 
     ul {
       padding-left: 22px;
+      margin-top: 8px;
     }
 
     .footer {
@@ -112,7 +120,7 @@
     <img src="profile.png" alt="Profile photo" class="profile-photo">
 
     <div>
-      <h1>Yibo Lu</h1>
+      <h1>Yibo Li</h1>
 
       <p class="subtitle">
         Master's Student in High Performance Computing<br>
@@ -120,9 +128,9 @@
       </p>
 
       <p class="links">
-  Email: <a href="mailto:your.email@studenti.polimi.it">your.email@studenti.polimi.it</a><br>
-  GitHub: <a href="https://github.com/AllenNotFound">github.com/AllenNotFound</a>
-</p>
+        Email: <a href="mailto:your.email@studenti.polimi.it">your.email@studenti.polimi.it</a><br>
+        GitHub: <a href="https://github.com/AllenNotFound">github.com/AllenNotFound</a>
+      </p>
     </div>
   </div>
 
@@ -131,86 +139,125 @@
   <p>
     I am a Master's student in High Performance Computing at Politecnico di Milano.
     My research interests include privacy and memorization in large language models,
-    agent security, high-performance computing, and numerical methods for scientific computing.
+    agent security, high-performance computing, and quantitative research.
   </p>
 
   <p>
-    I am particularly interested in understanding how machine learning systems memorize,
-    leak, and expose private information, as well as developing reliable evaluation methods
-    for privacy and security risks in modern AI systems.
+    I am interested in understanding how modern machine learning systems memorize,
+    expose, and leak sensitive information, as well as building reliable evaluation
+    methods for privacy and security risks in AI systems.
   </p>
 
-  <h2>Research Interests</h2>
+  <h2>Research</h2>
 
   <ul>
     <li>Privacy and memorization in large language models</li>
     <li>Agent security and privacy leakage through reasoning and tool interaction</li>
     <li>Machine learning security and privacy evaluation</li>
-    <li>High-performance computing and parallel numerical methods</li>
-    <li>Numerical methods for scientific computing</li>
+    <li>High-performance computing and scientific computing</li>
+    <li>Quantitative research and data-driven financial modeling</li>
   </ul>
 
-  <h2>Publications and Manuscripts</h2>
+  <h2>Publication</h2>
 
-  <div class="paper">
-    <span class="paper-title">Privacy Leakage and Memorization in Large Language Models.</span><br>
-    <span class="authors">Yibo Lu, ...</span><br>
-    <span class="muted">Manuscript in preparation.</span>
+  <div class="item">
+    <div class="item-title">
+      SOMP: Subspace Orthogonal Matching Pursuit for Privacy Leakage Analysis in Language Models
+    </div>
+    <div class="authors">
+      Yibo Li, et al.
+    </div>
+    <div class="item-meta">
+      <a href="https://arxiv.org/abs/2603.16761">arXiv</a>
+    </div>
   </div>
 
-  <div class="paper">
-    <span class="paper-title">Subspace Orthogonal Matching Pursuit for Privacy Leakage Analysis in Language Models.</span><br>
-    <span class="authors">Yibo Lu, ...</span><br>
-    <span class="muted">Under review.</span>
+  <h2>Ongoing Thesis</h2>
+
+  <div class="item">
+    <div class="item-title">
+      Privacy Leakage and Memorization in Large Language Models
+    </div>
+    <div class="item-meta">
+      Master's Thesis, Politecnico di Milano
+    </div>
+    <p>
+      My thesis focuses on privacy leakage and memorization risks in large language models,
+      with an emphasis on understanding how sensitive information can be memorized,
+      extracted, or exposed through model behavior and agent-style interactions.
+    </p>
   </div>
 
-  <h2>Selected Projects</h2>
+  <h2>Experience</h2>
 
-  <div class="project">
-    <span class="project-title">Semantic Similarity Based Reconstruction Evaluation</span><br>
-    Designed an embedding-based evaluation framework for measuring semantic leakage in reconstructed images.
-    The project studies whether reconstructed samples preserve semantically meaningful information beyond pixel-level similarity.
+  <div class="item">
+    <div class="item-title">
+      Mobile Application Development Intern
+    </div>
+    <div class="item-meta">
+      TIM · Mobile App Development
+    </div>
+    <p>
+      Worked on mobile application development and system design for a drone-related
+      application, involving mobile-side interaction, communication with external services,
+      and application-level functionality design.
+    </p>
   </div>
 
-  <div class="project">
-    <span class="project-title">CUDA-based Parallel Convolution</span><br>
-    Implemented optimized 2D convolution kernels using shared-memory tiling and evaluated GPU performance
-    under different mask sizes and configurations.
+  <div class="item">
+    <div class="item-title">
+      Quantitative Research Intern
+    </div>
+    <div class="item-meta">
+      Guotai Haitong Securities
+    </div>
+    <p>
+      Conducted quantitative research on financial data, including factor analysis,
+      signal construction, model evaluation, and backtesting-oriented research workflows.
+    </p>
   </div>
 
-  <div class="project">
-    <span class="project-title">Finite Element Methods with deal.II</span><br>
-    Developed numerical solvers for partial differential equations, including Poisson, heat, and Stokes equations,
-    using the deal.II finite element library.
-  </div>
-
-  <div class="project">
-    <span class="project-title">MPI-based SIR Simulation</span><br>
-    Implemented a parallel epidemic simulation using Cartesian domain decomposition,
-    halo exchange, and Runge-Kutta time integration.
+  <div class="item">
+    <div class="item-title">
+      Quantitative Researcher
+    </div>
+    <div class="item-meta">
+      Kaixin Asset Management
+    </div>
+    <p>
+      Worked on quantitative research tasks involving data processing, feature construction,
+      predictive modeling, and empirical evaluation for trading-related research.
+    </p>
   </div>
 
   <h2>Education</h2>
 
-  <p>
-    <strong>Politecnico di Milano</strong><br>
-    M.Sc. in High Performance Computing, 2024 – Present
-  </p>
+  <div class="item">
+    <div class="item-title">
+      Politecnico di Milano
+    </div>
+    <div class="item-meta">
+      M.Sc. in High Performance Computing, 2024 – Present
+    </div>
+  </div>
 
-  <p>
-    <strong>Jiangsu University</strong><br>
-    B.Eng. in Computer Science and Technology
-  </p>
+  <div class="item">
+    <div class="item-title">
+      Jiangsu University
+    </div>
+    <div class="item-meta">
+      B.Eng. in Computer Science and Technology
+    </div>
+  </div>
 
   <h2>Contact</h2>
 
   <p>
-    I am always open to discussions on AI privacy, security, high-performance computing,
-    and research opportunities.
+    I am open to discussions on AI privacy, agent security and quantitative research.
   </p>
 
   <p>
-    Email: <a href="mailto:your.email@studenti.polimi.it">your.email@studenti.polimi.it</a>
+    Email: <a href="mailto:your.email@studenti.polimi.it">aq.sususu@gmail.com</a>
   </p>
 
   <div class="footer">
