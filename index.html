@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yibo Lu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      max-width: 920px;
+      margin: 45px auto;
+      padding: 0 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+      color: #222;
+      background: #ffffff;
+    }
+
+    h1 {
+      margin-bottom: 4px;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin-top: 38px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+      font-size: 23px;
+    }
+
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 34px;
+    }
+
+    .profile-photo {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 1px solid #ddd;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-top: 0;
+      font-size: 17px;
+    }
+
+    .links {
+      margin-top: 14px;
+      font-size: 15px;
+    }
+
+    .paper, .project {
+      margin-bottom: 18px;
+    }
+
+    .paper-title, .project-title {
+      font-weight: bold;
+    }
+
+    .authors {
+      font-style: italic;
+    }
+
+    .muted {
+      color: #666;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid #eee;
+      color: #777;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .profile-photo {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="profile.jpg" alt="Profile photo" class="profile-photo">
+
+    <div>
+      <h1>Yibo Lu</h1>
+
+      <p class="subtitle">
+        Master's Student in High Performance Computing<br>
+        Politecnico di Milano
+      </p>
+
+      <p class="links">
+        Email: <a href="mailto:your.email@studenti.polimi.it">your.email@studenti.polimi.it</a><br>
+        GitHub: <a href="https://github.com/AllenNotFound">github.com/AllenNotFound</a><br>
+        CV: <a href="cv.pdf">Download CV</a>
+      </p>
+    </div>
+  </div>
+
+  <h2>About</h2>
+
+  <p>
+    I am a Master's student in High Performance Computing at Politecnico di Milano.
+    My research interests include privacy and memorization in large language models,
+    agent security, high-performance computing, and numerical methods for scientific computing.
+  </p>
+
+  <p>
+    I am particularly interested in understanding how machine learning systems memorize,
+    leak, and expose private information, as well as developing reliable evaluation methods
+    for privacy and security risks in modern AI systems.
+  </p>
+
+  <h2>Research Interests</h2>
+
+  <ul>
+    <li>Privacy and memorization in large language models</li>
+    <li>Agent security and privacy leakage through reasoning and tool interaction</li>
+    <li>Machine learning security and privacy evaluation</li>
+    <li>High-performance computing and parallel numerical methods</li>
+    <li>Numerical methods for scientific computing</li>
+  </ul>
+
+  <h2>Publications and Manuscripts</h2>
+
+  <div class="paper">
+    <span class="paper-title">Privacy Leakage and Memorization in Large Language Models.</span><br>
+    <span class="authors">Yibo Lu, ...</span><br>
+    <span class="muted">Manuscript in preparation.</span>
+  </div>
+
+  <div class="paper">
+    <span class="paper-title">Subspace Orthogonal Matching Pursuit for Privacy Leakage Analysis in Language Models.</span><br>
+    <span class="authors">Yibo Lu, ...</span><br>
+    <span class="muted">Under review.</span>
+  </div>
+
+  <h2>Selected Projects</h2>
+
+  <div class="project">
+    <span class="project-title">Semantic Similarity Based Reconstruction Evaluation</span><br>
+    Designed an embedding-based evaluation framework for measuring semantic leakage in reconstructed images.
+    The project studies whether reconstructed samples preserve semantically meaningful information beyond pixel-level similarity.
+  </div>
+
+  <div class="project">
+    <span class="project-title">CUDA-based Parallel Convolution</span><br>
+    Implemented optimized 2D convolution kernels using shared-memory tiling and evaluated GPU performance
+    under different mask sizes and configurations.
+  </div>
+
+  <div class="project">
+    <span class="project-title">Finite Element Methods with deal.II</span><br>
+    Developed numerical solvers for partial differential equations, including Poisson, heat, and Stokes equations,
+    using the deal.II finite element library.
+  </div>
+
+  <div class="project">
+    <span class="project-title">MPI-based SIR Simulation</span><br>
+    Implemented a parallel epidemic simulation using Cartesian domain decomposition,
+    halo exchange, and Runge-Kutta time integration.
+  </div>
+
+  <h2>Education</h2>
+
+  <p>
+    <strong>Politecnico di Milano</strong><br>
+    M.Sc. in High Performance Computing, 2024 – Present
+  </p>
+
+  <p>
+    <strong>Jiangsu University</strong><br>
+    B.Eng. in Computer Science and Technology
+  </p>
+
+  <h2>Contact</h2>
+
+  <p>
+    I am always open to discussions on AI privacy, security, high-performance computing,
+    and research opportunities.
+  </p>
+
+  <p>
+    Email: <a href="mailto:your.email@studenti.polimi.it">your.email@studenti.polimi.it</a>
+  </p>
+
+  <div class="footer">
+    Last updated: July 2026.
+  </div>
+
+</body>
+</html>
